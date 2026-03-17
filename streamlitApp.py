@@ -32,7 +32,7 @@ WEATHER_MAP = {
 }
 
 # ---------------------- 2. 工具函数（全异常捕获） ----------------------
-def query_weather(city, amap_key="e85c75bc4d144e58b5af4a636d77909b"):
+def query_weather(city, amap_key="高德key"):
     """真实天气查询（高德地理编码 + Open-Meteo）"""
     if not city:
         return "❌ 天气查询失败：请输入有效城市名（如：北京、上海）"
