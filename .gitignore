@@ -1,0 +1,9 @@
+# 敏感配置文件
+.env
+# 对话记忆文件（可选，不想提交也可以加）
+agent_memory.json
+# Python缓存文件（建议加）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
